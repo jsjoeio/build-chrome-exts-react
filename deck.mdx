@@ -1,22 +1,32 @@
 import { Head } from 'mdx-deck'
+import Footer from './components/Footer'
+import FlexBox from './components/FlexBox'
+import Item from './components/Item'
 
 export { default as theme } from './theme'
 
 <Head>
-  <title>Presentation Title</title>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <title>Chrome Exts. with React</title>
 </Head>
 
-# Hello
+# Build Chrome Extensions with React <br/> ⚛️
+
+<div style={{ margin: '100px 0'}}>
+  <p style={{ margin: '0' }}>Joe Previte 👋🏼</p>
+  <a href='https://twitter.com/jsjoeio' target="_blank" alt='@jsjoeio Twitter'><p style={{ margin: '0' }}>@jsjoeio</p></a>
+</div>
+<Footer />
 
 ---
 
-## Edit this file
+# My Background
 
-To create your presentation
-
-```notes
-- Create speaker notes in fenced code blocks
-```
+<FlexBox>
+  <Item title="freeCodeCamp alumni" src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538444596/step-up-portfolio-gatsbyjs/fcc-green.jpg" link="https://www.freecodecamp.org/" alt="freecodecamp logo"/>
+  <Item title="Front End Engineer" src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538444673/step-up-portfolio-gatsbyjs/das-crosshair.png" link="https://digitalairstrike.com/"alt="digital air strike logo"/>
+  <Item title="egghead instructor" src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538444152/step-up-portfolio-gatsbyjs/egghead-logo.png" link="https://egghead.io/instructors/joe-previte" alt="egghead logo"/>
+</FlexBox>
 
 ---
 

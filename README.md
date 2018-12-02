@@ -1,5 +1,8 @@
+# Building Chrome Extensions with React
 
-# mdx-deck basic template
+Slide deck for my lightening talk at [Phoenix ReactJS](https://www.meetup.com/Phoenix-ReactJS/) on December 5th, 2018. Built with [mdx-deck](https://github.com/jxnblk/mdx-deck).
+
+## mdx-deck basic template
 
 This was generated with [mdx-deck][]'s `npm init deck` command.
 
